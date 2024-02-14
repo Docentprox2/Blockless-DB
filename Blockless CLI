@@ -1,0 +1,18 @@
+Install the Blockless CLI
+To install the Blockless CLI, you can either use curl or wget.
+
+Installing Blockless CLI with curl:
+sudo sh -c "curl <https://raw.githubusercontent.com/BlocklessNetwork/cli/main/download.sh> | bash"
+
+
+
+Installing Blockless CLI with wget:
+sudo sh -c "wget <https://raw.githubusercontent.com/BlocklessNetwork/cli/main/download.sh> -v -O download.sh; chmod +x download.sh; ./download.sh; rm -rf download.sh"
+To install on Windows, go to the releases page(opens in a new tab) on GitHub and download the x86 version of the Blockless CLI.
+
+Get Familiar with Blockless CLI Commands:
+To see a list of available commands, you can run the bls or bls help command:
+
+bls help
+
+
